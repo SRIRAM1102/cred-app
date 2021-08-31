@@ -1,0 +1,149 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #E0E0E2;
+}
+
+.mainbody
+{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar
+{
+  margin: 0px;
+  padding: 0px;
+  background-color: blue;
+  color: white;
+  height: 5rem;
+  width: 100%;
+  
+}
+.title
+{
+  font-size: 2rem;
+ margin: auto;
+font-family: 'Allison', cursive;
+padding: 1rem;
+
+}
+.userdetail
+
+{
+  font-family: 'Kaisei HarunoUmi', serif;
+  margin: 1rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 13rem 1fr;
+  width: fit-content;
+  
+  background-color:#F4F8F7;
+}
+@media (min-width:700px)
+{
+  .user
+{
+margin: 0px;
+}
+.userdetail
+{
+  width: 27rem;
+}
+}
+.image
+{
+  height: 10rem;
+  width: 10rem;
+  border-radius: 0.16rem;
+}
+.user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ margin: 0px 5%;
+}
+.heading
+{
+  font-weight: bold;
+}
+span{
+  font-weight: 100;
+}
+.delbtn,.addbtn
+{
+  background-color:#FF0000;
+  color: white;
+  padding: 0.1rem;
+  font-size:x-small;
+  width: 3.5rem;
+}
+.editbtn
+{
+  background-color:white;
+  color: black;
+  padding: 0.3rem;
+  width: 3.5rem;
+  font-size:x-small;
+}
+.btn{
+display: flex;
+gap: 1%;
+}
+.modal
+{
+  
+  position: fixed;
+  left: 0;
+  right:0;
+  bottom:0;
+  top:0;
+ opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbe8ce;
+  transition: all 0.3s ease-in-out ;
+  line-height:2rem ;
+
+}
+
+.modalheaders
+{
+  background-color: #212529;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.modalcontent
+{
+  border:1px solid black;
+  gap:8%;
+  
+  display: flex;
+  flex-direction: column;
+  width:30vw;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.modalarea
+{
+  padding: 5%;
+}
+h3{
+  margin: 0px;
+}
+.showbtn
+{
+  display: flex;
+  justify-content: space-around;
+}
+.mainbtn
+{
+  color:blue;
+  border-radius: 20px;
+  border-color:blue ;
+  padding: 0.5%;
+  margin-top: 1rem;
+}
